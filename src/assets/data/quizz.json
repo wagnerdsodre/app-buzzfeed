@@ -1,0 +1,113 @@
+{
+  "title": "Descubra a Casa de Hogwarts Que Você Pertence!",
+  "questions": [
+    {
+      "question": "1 - O que você mais valoriza em um amigo?",
+      "options": [
+        { "id": 1, "option": "Coragem e lealdade", "alias": "A" },
+        { "id": 2, "option": "Ambição e astúcia", "alias": "B" },
+        { "id": 3, "option": "Trabalho em equipe e lealdade", "alias": "C" },
+        { "id": 4, "option": "Inteligência e criatividade", "alias": "D" }
+      ]
+    },
+    {
+      "question": "2 - Qual desses itens mágicos você gostaria de ter?",
+      "options": [
+        { "id": 1, "option": "A Capa da Invisibilidade", "alias": "A" },
+        { "id": 2, "option": "O Mapa do Maroto", "alias": "B" },
+        { "id": 3, "option": "Uma Firebolt", "alias": "C" },
+        { "id": 4, "option": "A Varinha das Varinhas", "alias": "D" }
+      ]
+    },
+    {
+      "question": "3 - Se você estivesse em Hogwarts, qual seria seu passatempo favorito?",
+      "options": [
+        { "id": 1, "option": "Explorar a Floresta Proibida", "alias": "A" },
+        { "id": 2, "option": "Estudar na biblioteca", "alias": "B" },
+        { "id": 3, "option": "Jogar Quadribol", "alias": "C" },
+        { "id": 4, "option": "Testar feitiços com seus amigos", "alias": "D" }
+      ]
+    },
+    {
+      "question": "4 - Qual é o seu animal favorito?",
+      "options": [
+        { "id": 1, "option": "Leão", "alias": "A" },
+        { "id": 2, "option": "Serpente", "alias": "B" },
+        { "id": 3, "option": "Texugo", "alias": "C" },
+        { "id": 4, "option": "Águia", "alias": "D" }
+      ]
+    },
+    {
+      "question": "5 - Como você prefere resolver conflitos?",
+      "options": [
+        { "id": 1, "option": "Enfrentar a situação de frente", "alias": "A" },
+        { "id": 2, "option": "Usar estratégia e inteligência", "alias": "B" },
+        { "id": 3, "option": "Buscar um compromisso", "alias": "C" },
+        { "id": 4, "option": "Analisar a situação com calma", "alias": "D" }
+      ]
+    },
+    {
+      "question": "6 - O que você faria se visse alguém sendo intimidado?",
+      "options": [
+        { "id": 1, "option": "Defender a pessoa", "alias": "A" },
+        { "id": 2, "option": "Planejar uma estratégia para ajudar", "alias": "B" },
+        { "id": 3, "option": "Tentar fazer amizade com o agressor", "alias": "C" },
+        { "id": 4, "option": "Falar com um adulto sobre isso", "alias": "D" }
+      ]
+    },
+    {
+      "question": "7 - Qual é o seu tipo de aventura favorita?",
+      "options": [
+        { "id": 1, "option": "Lutar contra monstros", "alias": "A" },
+        { "id": 2, "option": "Resolver mistérios", "alias": "B" },
+        { "id": 3, "option": "Ajudar pessoas em necessidade", "alias": "C" },
+        { "id": 4, "option": "Descobrir novas ideias e invenções", "alias": "D" }
+      ]
+    },
+    {
+      "question": "8 - Qual é a sua abordagem em um novo projeto?",
+      "options": [
+        { "id": 1, "option": "Ir direto ao ponto e começar", "alias": "A" },
+        { "id": 2, "option": "Planejar cuidadosamente cada etapa", "alias": "B" },
+        { "id": 3, "option": "Reunir um grupo e colaborar", "alias": "C" },
+        { "id": 4, "option": "Buscar inovações e ideias criativas", "alias": "D" }
+      ]
+    },
+    {
+      "question": "9 - Como você se sente em relação a regras?",
+      "options": [
+        { "id": 1, "option": "Elas são importantes e devem ser seguidas", "alias": "A" },
+        { "id": 2, "option": "Às vezes precisam ser quebradas para o bem maior", "alias": "B" },
+        { "id": 3, "option": "Devem ser discutidas e adaptadas", "alias": "C" },
+        { "id": 4, "option": "São boas, mas a criatividade deve ser encorajada", "alias": "D" }
+      ]
+    },
+    {
+      "question": "10 - O que motiva você a alcançar seus objetivos?",
+      "options": [
+        { "id": 1, "option": "O desejo de ser o melhor", "alias": "A" },
+        { "id": 2, "option": "O desejo de ter sucesso e reconhecimento", "alias": "B" },
+        { "id": 3, "option": "O desejo de ajudar os outros e fazer o bem", "alias": "C" },
+        { "id": 4, "option": "A busca pela sabedoria e pelo conhecimento", "alias": "D" }
+      ]
+    }
+  ],
+  "results": {
+    "A": {
+      "house": "Grifinória",
+      "description": "Você é corajoso e valoriza a amizade e a lealdade. Você pertence à Grifinória!"
+    },
+    "B": {
+      "house": "Sonserina",
+      "description": "Você é astuto e ambicioso, sempre em busca de poder e sucesso. Você pertence à Sonserina!"
+    },
+    "C": {
+      "house": "Lufa-Lufa",
+      "description": "Você é gentil e leal, sempre se preocupa com o bem-estar dos outros. Você pertence à Lufa-Lufa!"
+    },
+    "D": {
+      "house": "Corvinal",
+      "description": "Você valoriza a inteligência e a sabedoria, sempre buscando aprender mais. Você pertence à Corvinal!"
+    }
+  }
+}
