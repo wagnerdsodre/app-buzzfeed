@@ -1,0 +1,27 @@
+<div class="quizz-container">
+  <div class="quizz-container__topo">
+    <img src="./../../../assets/img/logo.png" alt="Logo do Quiz" class="quizz-container__topo__logo">
+    <h3 class="quizz-container__topo__title">{{ title }}</h3>
+  </div>
+
+  <div class="quizz-container__content">
+    <div class="quizz-container__content__question">
+      <h3 *ngIf="!finished">{{ currentQuestion.question }}</h3>
+
+    </div>
+
+    <div class="quizz-container__content__options">
+      <div *ngIf="!finished" class="quizz-container__content__options__btn-group">
+        <button *ngFor="let option of currentQuestion.options" (click)="selectOption(option)" class="quizz-container__content__options__btn">
+          {{ option.option }}
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="finished" class="quizz-container__results">
+    <h2 class="quizz-container__results__house">Você pertence à {{ result.house }}!</h2>
+    <p class="quizz-container__results__description">{{ result.description }}</p>
+  </div>
+</div>
+

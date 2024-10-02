@@ -1,0 +1,108 @@
+
+$primary-color: #ff5100;
+$primary-hover-color: #f30c0c;
+$background-color: #f5f5f5;
+$text-color: #333;
+$text-secondary-color: #444;
+$text-light-color: #666;
+$border-radius: 8px;
+$padding: 10px;
+$marging: 10px;
+$font-size-title: 1.8rem;
+$font-size-question: 1.5rem;
+$font-size-button: 1.2rem;
+$font-size-result-title: 2rem;
+$font-size-result-description: 1.2rem;
+
+
+.quizz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: baseline;
+  background-color: $background-color;
+  padding: $padding auto;
+
+  &__topo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin:$marging;
+
+    img {
+      width: 100%;
+      max-width: 300px;
+    }
+
+    h3 {
+      font-size: $font-size-title;
+      color: $text-color;
+      text-align: center;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    &__questions {
+      text-align: center;
+
+      h3 {
+        font-size: $font-size-question;
+        color: $text-secondary-color;
+        margin: 0 20px;
+      }
+    }
+
+    &__options {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+
+        &__btn {
+          background-color: $primary-color;
+          color: #fff;
+          border: none;
+          padding: 10px;
+          margin: 10px 10px 10px 10px;
+          border-radius: $border-radius;
+          font-size: $font-size-button;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+
+          &:hover {
+            background-color: $primary-hover-color;
+          }
+
+      }
+    }
+  }
+
+  &__results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
+    text-align: center;
+    width: 100%;
+
+
+    h2 {
+      font-size: $font-size-result-title;
+      color: $text-secondary-color;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: $font-size-result-description;
+      color: $text-light-color;
+    }
+  }
+}
